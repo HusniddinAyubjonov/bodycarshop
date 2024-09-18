@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    /* height: 995px; */
+    display: flex;
+}
+
+.logo {
+    width: 243px;
+    height: 44px;
+    margin-top: 22px;
+    margin-left: 242px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .email a {
+    margin-left: 242px;
+    color: white;
+    margin-top: 10px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon-instagram {
+    width: 35px;
+    height: 35px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+.icon-vk {
+    width: 120px;
+    height: 125px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.contact {
+    color: white;
+    margin-top: 42px;
+    margin-left: 201px;
+}
+
+.text-1 {
+    font-weight: bolder;
+    font-weight: bolder;
+    margin-left: 136px;
+    cursor: copy;
+}
+
+.text-2 {
+    margin-top: 12px;
+}
+
+head {
+    background-color: black;
+    height: auto;
+}
+
+.box-fire-img {
+    background-color: black;
+    background: url(/img/fire-img.png);
+}
+
+.img-1 {
+    margin-left: 228px;
+    margin-top: 89px;
+    cursor: pointer;
+}
+
+.text-3 {
+    color: white;
+    text-align: center;
+    font-family: "Golos Text", sans-serif;
+    font-size: 95px;
+}
+
+.box-1 {
+    color: white;
+    display: flex;
+    margin-left: 501px;
+    font-family: "Golos Text", sans-serif;
+}
+
+.box-1 h1 {
+    margin-left: 10px;
+    font-size: 95px;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -25px;
+}
+
+.box-1 h3 {
+    font-size: 31px;
+}
+
+.text-4 {
+    margin-top: 80px;
+    margin-left: 20px;
+    font-weight: 600px;
+    font-size: 34px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.box-1-text-1 {
+    font-family: "Source Sans 3", sans-serif;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.box-2 {
+    color: white;
+    margin-left: 304px;
+    margin-top: -240px;
+    display: flex;
+}
+
+.text-display {
+    display: flex;
+}
+
+.text-5 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 35px;
+}
+
+.text-6 {
+    transform: rotate(270deg);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 35.27px;
+    font-weight: 700;
+    line-height: 42.09px;
+    margin-left: 17px;
+    margin-top: 13px;
+}
+
+.text-7 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 80.12px;
+    font-weight: 700;
+    line-height: 95.62px;
+}
+
+.text-8 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22.38px;
+    font-weight: 700;
+    line-height: 26.71px;
+}
+
+.box-4 {
+    background-image: url(/img/img-2.png);
+    width: 493px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 285px;
+    margin-top: -65px;
+}
+
+.text-9 {
+    font-family: 'Golos', sans-serif;
+    font-size: 23.92px;
+    font-weight: 700;
+    line-height: 28.71px;
+    margin-left: 58px;
+    width: 365px;
+    padding-top: 22px;
+}
+
+.inp-1 {
+    width: 406px;
+    height: 47px;
+    border-radius: 12px;
+    opacity: 0px;
+    outline: none;
+    border: none;
+    background: #131313;
+    color: #CDCDCD;
+    padding-left: 20px;
+    margin-left: 43px;
+    margin-top: 28px;
+}
+
+.inp-2 {
+    width: 406px;
+    height: 47px;
+    border-radius: 12px;
+    opacity: 0px;
+    outline: none;
+    border: none;
+    background: #131313;
+    color: #CDCDCD;
+    padding-left: 20px;
+    margin-left: 43px;
+    margin-top: 18px;
+}
+
+.btn-1 {
+    width: 199px;
+    height: 46px;
+    margin-left: 146px;
+    margin-top: 28px;
+    background: #900000;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-1:hover {
+    background: #bc0101;
+    transition: 0.3s;
+}
+
+.main-1 {
+    background-color: black;
+    height: 818px;
+}
+
+.box-5 {
+    background-image: url(/img/img-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 818px;
+    margin-left: 830px;
+}
+
+.about-us {
+    color: white;
+    position: absolute;
+    left: 166px;
+    margin-top: 100px;
+    display: flex;
+    cursor: pointer;
+}
+
+.text-10 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65.18px;
+    text-align: center;
+}
+
+.text-11 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22.38px;
+    font-weight: 700;
+    line-height: 26.71px;
+    text-align: center;
+    width: 275px;
+}
+
+.text-12 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65.18px;
+    text-align: center;
+}
+
+.text-13 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22.38px;
+    font-weight: 700;
+    line-height: 26.71px;
+    text-align: center;
+    width: 275px;
+}
+
+.text-14 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65.18px;
+    text-align: center;
+}
+
+.text-15 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22.38px;
+    font-weight: 700;
+    line-height: 26.71px;
+    text-align: center;
+    width: 235px;
+}
+
+.text-16 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65.18px;
+    text-align: center;
+}
+
+.text-17 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22.38px;
+    font-weight: 700;
+    line-height: 26.71px;
+    text-align: center;
+    width: 235px;
+}
+
+.box-7 {
+    margin-left: 40px;
+}
+
+.video {
+    position: absolute;
+    top: 1463px;
+    margin-left: 166px;
+}
+
+.youtube-video {
+    width: 748px;
+    height: 418px;
+}
+
+.box-9 {
+    color: white;
+    position: absolute;
+    left: 953px;
+    top: 1500px;
+}
+
+.text-18 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 35.27px;
+    font-weight: 600;
+    line-height: 42.09px;
+}
+
+.text-19 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    width: 390px;
+}
+
+.box-10 {
+    background-image: url('img/img-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 804px;
+}
+
+.text-20 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 51.31px;
+    text-align: left;
+    color: white;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.text-21 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.8px;
+    text-align: center;
+    color: #CDCDCD;
+    width: 562px;
+    margin-left: 481px;
+    margin-top: 9px;
+}
+
+.box-11 {
+    display: flex;
+    margin-left: 212px;
+}
+
+.card-1 {
+    width: 335px;
+    height: 404px;
+    opacity: 0.52px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 19px;
+    border: 1px 0px 0px 0px;
+    margin-top: 62px;
+    background: linear-gradient(150.31deg, rgba(255, 255, 255, 0.1705) -15.73%, rgba(255, 255, 255, 0) 104.81%);
+    border: 1px solid;
+    border-image-source: linear-gradient(226.5deg, rgba(255, 255, 255, 0.37) -1.98%, rgba(255, 255, 255, 0) 104.93%);
+    color: #CDCDCD;
+}
+
+.card-text-1 {
+    font-family: "Source Sans 3", sans-serif;
+    padding-top: 37px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.8px;
+    text-align: center;
+}
+
+.card-text-2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+.card-text-3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card-box-1 {
+    display: flex;
+    margin-left: 124px;
+    margin-top: 12px;
+}
+
+.card-text-4 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.card-text-5 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.83px;
+    text-align: center;
+    margin-left: 7px;
+}
+
+.card-btn-1 {
+    background: rgba(144, 0, 0, 1);
+    color: #CDCDCD;
+    margin-top: 24px;
+    width: 250px;
+    height: 57px;
+    border: none;
+    transition: 0.3s;
+}
+
+.card-btn-1:hover {
+    background: rgb(187, 3, 3);
+    color: white;
+    transition: 0.3s;
+}
+
+.card-2 {
+    width: 335px;
+    height: 404px;
+    opacity: 0.52px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 19px;
+    border: 1px 0px 0px 0px;
+    margin-top: 62px;
+    background: linear-gradient(150.31deg, rgba(255, 255, 255, 0.1705) -15.73%, rgba(255, 255, 255, 0) 104.81%);
+    border: 1px solid;
+    border-image-source: linear-gradient(226.5deg, rgba(255, 255, 255, 0.37) -1.98%, rgba(255, 255, 255, 0) 104.93%);
+    margin-left: 41px;
+    margin-top: 162px;
+    color: white;
+}
+
+.card-text-6 {
+    font-family: "Source Sans 3", sans-serif;
+    padding-top: 37px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.8px;
+    text-align: center;
+}
+
+.card-text-7 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+.card-text-8 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card-box-2 {
+    display: flex;
+    margin-left: 124px;
+    margin-top: 12px;
+}
+
+.card-text-9 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.card-text-10 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.83px;
+    text-align: center;
+    margin-left: 7px;
+}
+
+.card-btn-2 {
+    background: rgba(144, 0, 0, 1);
+    background: rgb(187, 3, 3);
+    margin-top: 24px;
+    width: 250px;
+    height: 57px;
+    border: none;
+    transition: 0.3s;
+    color: white;
+}
+
+.card-btn-2:hover {
+    background: rgba(144, 0, 0, 1);
+    transition: 0.3s;
+    color: #CDCDCD;
+}
+
+.card-3 {
+    width: 335px;
+    height: 404px;
+    opacity: 0.52px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 19px;
+    border: 1px 0px 0px 0px;
+    margin-top: 62px;
+    background: linear-gradient(150.31deg, rgba(255, 255, 255, 0.1705) -15.73%, rgba(255, 255, 255, 0) 104.81%);
+    border: 1px solid;
+    border-image-source: linear-gradient(226.5deg, rgba(255, 255, 255, 0.37) -1.98%, rgba(255, 255, 255, 0) 104.93%);
+    color: #CDCDCD;
+    margin-left: 41px;
+}
+
+.card-text-11 {
+    font-family: "Source Sans 3", sans-serif;
+    padding-top: 37px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.8px;
+    text-align: center;
+}
+
+.card-text-12 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+.card-text-13 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card-box-3 {
+    display: flex;
+    margin-left: 124px;
+    margin-top: 12px;
+}
+
+.card-text-14 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23.87px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.card-text-15 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.83px;
+    text-align: center;
+    margin-left: 7px;
+}
+
+.card-btn-3 {
+    background: rgba(144, 0, 0, 1);
+    color: #CDCDCD;
+    margin-top: 24px;
+    width: 250px;
+    height: 57px;
+    border: none;
+    transition: 0.3s;
+}
+
+.card-btn-3:hover {
+    background: rgb(187, 3, 3);
+    color: white;
+    transition: 0.3s;
+}
+
+.leftrigth {
+    color: #CDCDCD;
+    position: absolute;
+    left: 675px;
+    margin-top: 90px;
+}
+
+.right {
+    margin-left: 140px;
+    cursor: pointer;
+    margin-top: -50px;
+    width: 52px;
+    height: 51px;
+}
+
+.left {
+    cursor: pointer;
+    width: 52px;
+    height: 51px;
+}
