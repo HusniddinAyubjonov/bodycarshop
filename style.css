@@ -198,6 +198,10 @@ head {
     margin-top: 28px;
 }
 
+.inp-1::placeholder {
+    background: rgba(205, 205, 205, 1);
+}
+
 .inp-2 {
     width: 406px;
     height: 47px;
@@ -210,6 +214,10 @@ head {
     padding-left: 20px;
     margin-left: 43px;
     margin-top: 18px;
+}
+
+.inp-2::placeholder {
+    background: rgba(205, 205, 205, 1);
 }
 
 .btn-1 {
@@ -659,4 +667,66 @@ head {
     cursor: pointer;
     width: 52px;
     height: 51px;
+}
+
+.box-12 {
+    background-image: url(/img/background-red.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 731px;
+    display: flex;
+}
+
+.text-22 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 51.31px;
+    text-align: left;
+    width: 573px;
+    height: 102px;
+    margin-left: 259px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 82px;
+}
+
+.text-23 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 32.22px;
+    text-align: left;
+    width: 521px;
+    height: 160px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 259px;
+    margin-top: 17px;
+}
+
+.text-24 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 48.93px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 259px;
+    margin-top: 17px;
+}
+
+.inp-3 {
+    width: 432px;
+    height: 45px;
+    top: 506px;
+    left: 379px;
+    outline: none;
+    margin-left: 259px;
+    background: linear-gradient(94.52deg, rgba(255, 255, 255, 0.0135) 7.75%, rgba(255, 255, 255, 0) 147.28%);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    padding: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.inp-3::placeholder {
+    color: rgba(255, 255, 255, 1);
 }
